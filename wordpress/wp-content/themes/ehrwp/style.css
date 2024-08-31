@@ -1,0 +1,172 @@
+/*
+Theme Name: ehrwp
+Theme URI: http://example.com/your-theme/
+Author: ehrlogic team
+Author URI:https://ehrlogic.com/
+Description: EHR Logic Pro is a sleek and modern WordPress theme specifically designed for companies specializing in Electronic Health Records (EHR) systems. This theme is built with a focus on clean, professional design, ensuring that your healthcare software solutions are presented with the utmost clarity and trustworthiness. EHR Logic Pro offers fully responsive layouts, ensuring your content looks perfect on any device. The theme includes customizable sections for showcasing your services, case studies, client testimonials, and a dedicated blog to share industry insights. With intuitive navigation and built-in SEO features, EHR Logic Pro helps you create a powerful online presence that resonates with healthcare professionals and decision-makers.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: your-theme
+*/
+
+/* Add your custom CSS here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --theme-color1: linear-gradient(90.26deg, #214F89 0.17%, #12BCAB 99.77%);
+    --theme-color2: #13BCAB;
+    --theme-color3: #214F8A;
+    --bg-color: #FFFEF6;
+    --white-color: #fff;
+    --black-color: #1A1A19;
+    --pane-padding: 5px 42px;
+    --transition: all 0.35s;
+    --title-color: #214F8A;
+    --paragraph: #555;
+    --paragraph-light: #828282;
+    --primary-font: 'Inter', sans-serif;
+    --fontw1: 100;
+    --fontw2: 200;
+    --fontw3: 300;
+    --fontw4: 400;
+    --fontw5: 500;
+    --fontw6: 600;
+    --fontw7: 700;
+    --fontw8: 800;
+    --fontw9: 900;
+}
+body{
+    background-color: var(--white-color);
+    line-height: 1.5;
+    font-family: var(--primary-font);
+    padding:0px  10px;
+    font-weight: var(--fontw5);
+    font-size: 16px;
+}
+
+ 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8; /* Optional: background color */
+}
+.bradcrums{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+h1 .logo-a{
+    text-decoration: none;
+}
+
+header p {
+    margin: 0;
+    color:var(--black-color);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0px 30px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color:var(--black-color);
+    font-weight: var(--fontw5);
+}
+
+.contact-button {
+    margin-left:30px;
+    padding: 10px 20px;
+    background-color: #0073aa; /* Optional: button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: #005885; /* Optional: hover color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------footer------------------*/
+footer {
+    background-color: #f8f8f8; /* Optional: background color */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.footer-tagline {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links p {
+    margin: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #0073aa; /* Optional: link color */
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #005885; /* Optional: hover color */
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #686464;
+}
